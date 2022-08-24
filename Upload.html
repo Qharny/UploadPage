@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>UPLOAD YOUR BEST MEMORY</title>
+  
+  <!--Google Fonts-->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Rubik&display=swap">
+  <!--stylesheet-->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <form action="" method="get">
+    <div class="container">
+      <input type="file" name="" id="file-input" accept="image/jpeg, image/png, image/jpg" onchange="preview()" multiple placeholder="1">
+      <label for="file-input">
+        <em class="fa-solid fa-up-from-bracket"></em> &nbsp; Choose a photo
+      </label>
+      <div id="num-of-files">No file chosen yet!</div>
+      <div id="images"></div>
+    </div>
+  </form>
+
+  <!--Script-->
+  <script src="script.js"></script> 
+</body>
+</html>
